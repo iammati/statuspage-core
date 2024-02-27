@@ -1,0 +1,13 @@
+version: '3.9'
+
+services:
+  api:
+    image: golang:1.22-alpine
+    container_name: statuspage-api
+    working_dir: /go/src/api
+    command: go run main.go
+    ports:
+      - 8080:8080
+      - 8081:8081
+    volumes:
+      - .:/go/src/api
