@@ -10,3 +10,7 @@ The core of the Statuspage application, built in a simple-fashioned, fast and ro
 - SSL certificate chain
 - Service up-/downtime with history
 - Metrics for DNS and TCP resolution time
+
+## Requirements
+
+- Go v1.22 or newer

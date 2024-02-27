@@ -1,3 +1,3 @@
 #!/bin/bash
 
-go build -o dist/main
+go build -C src/ -o ${PWD}/dist/statuspage-core
